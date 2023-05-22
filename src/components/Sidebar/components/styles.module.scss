@@ -1,0 +1,27 @@
+.sidebarButton {
+  padding: 12px 10px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+  text-decoration: none;
+  color: #757575;
+  display: flex;
+  gap: 12px;
+  border: 1px solid #f6f6f6;
+  width: 100%;
+
+  .iconContainer {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+  }
+
+  span {
+    transition: 0.3s;
+  }
+
+  &:hover {
+    background-color: #f6f6f6;
+  }
+}
